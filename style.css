@@ -1,0 +1,161 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.classe_botao {
+    color: white;
+    margin-left: 10px;
+}
+
+.info-inicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu {
+    margin-left: 15px;
+    color: black;
+}
+
+.InformAgora {
+    margin: 0 auto;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    /* Ajuste conforme necessário */
+    margin-right: 20px;
+    /* Alinhamento à direita */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#icone-pesquisar {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#buscar input {
+    width: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.barra-de-opções {
+    display: flex;
+    /* Usa Flexbox para alinhar os itens em linha */
+    justify-content: center;
+    /* Centraliza os itens horizontalmente dentro do contêiner */
+    gap: 0.5rem;
+    /* Adiciona espaçamento entre os itens */
+    padding: 1rem;
+    /* Adiciona preenchimento ao redor da barra de opções */
+    background-color: blue;
+    /* Cor de fundo para a barra de opções */
+    align-items: center;
+    /* Alinhar verticalmente */
+}
+
+.opções {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: white;
+    /* Cor do texto dos links */
+    font-size: 15px;
+    /* Tamanho da fonte dos links */
+    padding: 0.5rem 1rem;
+    /* Espaçamento interno (padding) dos links */
+    border-radius: 0.5rem;
+    /* Arredonda os cantos dos links */
+}
+
+.barra-de-movimentação {
+    display: flex;
+    /* Usa Flexbox para alinhar os itens em linha */
+    justify-content: left;
+    /* Centraliza os itens horizontalmente dentro do contêiner */
+    gap: 1rem;
+    /* Adiciona espaçamento entre os itens */
+    padding: 1rem;
+    /* Adiciona preenchimento ao redor da barra de opções */
+    align-items: center;
+    /* Alinhar verticalmente */
+}
+
+.movimentação {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+    color: black;
+    /* Cor do texto dos links */
+    font-size: 15px;
+    /* Tamanho da fonte dos links */
+    padding: 0.5rem 1rem;
+    /* Espaçamento interno (padding) dos links */
+    border-radius: 0.5rem;
+    /* Arredonda os cantos dos links */
+    margin-top: 20px;
+}
+
+.opções:hover {
+    background-color: #e2e6ea;
+    /* Cor de fundo ao passar o mouse sobre o link */
+}
+
+#Podcast-Pessoas {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#tema1 {
+    text-align: left;
+    margin-right: 40px;
+}
+
+#img-tema1 {
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    /* Define a largura da imagem */
+    height: 400px;
+    /* Define a altura da imagem */
+}
+
+.img-lateral {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: 10vh;
+    width: 20%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+.img-lateral img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
